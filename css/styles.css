@@ -1,0 +1,27 @@
+/* Animação de pulsação */
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.06);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Estilo do botão com animação de pulsação */
+  .btn-container {
+    transition: background-color 0.3s ease-in-out;
+    animation: pulse 1.5s infinite; /* Animação aplicada ao botão */
+  }
+  
+  .btn-container:hover {
+    background-color: #fbbf24; /* yellow-600 */
+  }
+  
+  .btn-container .pulsating-btn {
+    cursor: pointer;
+  }
+  
