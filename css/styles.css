@@ -24,4 +24,10 @@
   .btn-container .pulsating-btn {
     cursor: pointer;
   }
+
+  .background {
+    opacity: 0.8;
+    background-image:  linear-gradient(#ffffff34 1px, transparent 1px), linear-gradient(to right, #ffffff34 1px, #e5e5f700 1px);
+    background-size: 100px 100px;
+  }
   
