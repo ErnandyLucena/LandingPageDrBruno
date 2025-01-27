@@ -1,4 +1,9 @@
 /* Animação de pulsação */
+html
+ {
+ scroll-behavior: smooth;
+}
+
 @keyframes pulse {
     0% {
       transform: scale(1);
