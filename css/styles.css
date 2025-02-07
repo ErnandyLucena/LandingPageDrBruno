@@ -42,4 +42,10 @@ html
   .box-shadow {
     box-shadow: 5px 5px 25px rgba(255, 208, 0, 0.39);
   }
+
+ .pattern {background-color: #e5e5f700;
+opacity: 0.8;
+background-image:  linear-gradient(#ffffff11 1px, transparent 1px), linear-gradient(to right, #fefeff10 1px, #e5e5f700 1px);
+background-size: 100px 100px;
+  }
   
